@@ -30,6 +30,9 @@
             line-height: 60px;
             color: inherit;
 
+            &:hover {
+                color: $main__bg;
+            }
         }
 
         &--mobile {

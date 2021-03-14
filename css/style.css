@@ -50,6 +50,10 @@
   color: inherit;
 }
 
+.navbar-menu__link:hover {
+  color: #30C2FF;
+}
+
 .navbar-menu--mobile {
   display: none;
   position: relative;
