@@ -50,19 +50,11 @@
   color: inherit;
 }
 
-.navbar-menu__link:hover {
-  color: #30C2FF;
-}
-
 .navbar-menu--mobile {
   display: none;
   position: relative;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-}
-
-.navbar-menu--mobile:hover {
-  background-color: #DDDDDD;
 }
 
 .navbar-menu--mobile::after {
@@ -114,8 +106,7 @@
           border-radius: 3px;
   border: none;
   background-color: transparent;
-  margin-right: 20px;
-  padding: 15px;
+  padding-right: 30px;
   cursor: pointer;
 }
 
@@ -127,10 +118,6 @@
   font-family: "icons";
   font-size: 18px;
   color: #555555;
-}
-
-.navbar__search:hover {
-  background-color: #DDDDDD;
 }
 
 .navbar__button {
@@ -1220,10 +1207,10 @@ html {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 15px;
     text-decoration: none;
     background-color: #FFFFFF;
     border: none;
+    padding: 0;
     cursor: pointer;
   }
   .navbar-menu--visible {

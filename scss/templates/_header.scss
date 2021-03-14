@@ -30,9 +30,6 @@
             line-height: 60px;
             color: inherit;
 
-            &:hover {
-                color: $main__bg;
-            }
         }
 
         &--mobile {
@@ -40,9 +37,6 @@
             position: relative;
             border-radius: 3px;
 
-            &:hover {
-                background-color: $grey;
-            }
     
             &::after {
                 content: '\e902';
@@ -82,8 +76,7 @@
         border-radius: 3px;
         border: none;
         background-color: transparent;
-        margin-right: 20px;
-        padding: 15px;
+        padding-right: 30px;
         cursor: pointer;
 
         
@@ -97,10 +90,6 @@
             font-family: "icons";
             font-size: 18px;
             color: $content-color;
-        }
-
-        &:hover {
-            background-color: $grey;
         }
     }
 

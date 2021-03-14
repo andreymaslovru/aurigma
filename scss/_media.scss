@@ -351,10 +351,10 @@
             &--mobile {
                 display: flex;
                 align-items: center;
-                padding: 15px;
                 text-decoration: none;
                 background-color: $white;
                 border: none;
+                padding: 0;
                 cursor: pointer;
             }
 
