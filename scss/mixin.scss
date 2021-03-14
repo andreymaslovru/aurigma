@@ -1,0 +1,10 @@
+@mixin animation($ping) {
+    transform: translate(0px, 0px);
+    opacity: 0;
+    transition: all $ping ease 0s;
+
+    &._active {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}

@@ -1,8 +1,12 @@
 .storefront {
     margin-bottom: 182px;
 
+    @include animation(2s);
+
     &__info {
         max-width: 498px;
+
+        @include animation(1s);
     }
     
     &__title {
@@ -20,5 +24,9 @@
         font-size: 18px;
         line-height: 26px;
         color: $content-color;
+    }
+
+    &__image {
+        @include animation(.5s);
     }
 }

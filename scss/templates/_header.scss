@@ -5,6 +5,7 @@
     padding: 0px 20px 0px 20px;
     border-bottom: 1px solid #E5E5E5;
     background-color: $white;
+    height: 60px;
 
     &__left {
         display: flex;
@@ -36,6 +37,23 @@
 
         &--mobile {
             display: none;
+            position: relative;
+            border-radius: 3px;
+
+            &:hover {
+                background-color: $grey;
+            }
+    
+            &::after {
+                content: '\e902';
+                // position: absolute;
+                left: 0;
+                right: 0;
+                -webkit-font-smoothing: antialiased;
+                font-family: "icons";
+                font-size: 18px;
+                color: $content-color;
+            }
         }
 
         &__logo {
@@ -58,6 +76,7 @@
 
     &__search {
         display: flex;
+        position: relative;
         align-items: center;
         justify-content: center;
         border-radius: 3px;
@@ -67,8 +86,21 @@
         padding: 15px;
         cursor: pointer;
 
+        
+
+        &::after {
+            content: '\e903';
+            // position: absolute;
+            left: 0;
+            right: 0;
+            -webkit-font-smoothing: antialiased;
+            font-family: "icons";
+            font-size: 18px;
+            color: $content-color;
+        }
+
         &:hover {
-            background-color: $main__bg;
+            background-color: $grey;
         }
     }
 

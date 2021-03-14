@@ -1,5 +1,7 @@
 .project {
     margin-bottom: 120px;
+    
+    @include animation(1.5s);
 
     &__container {
         flex-direction: column; 
@@ -22,6 +24,16 @@
     flex-direction: column;
     align-items: center;
     max-width: 290px;
+
+    &-1 {
+        @include animation(.5s);
+    }
+    &-2 {
+        @include animation(1s);
+    }
+    &-3 {
+        @include animation(1.5s);
+    }
 
     &__image {
         margin-bottom: 16px;

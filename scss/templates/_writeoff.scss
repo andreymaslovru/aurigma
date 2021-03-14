@@ -1,6 +1,8 @@
 .writeoff {
     margin-bottom: 120px;
 
+    @include animation(1.5s);
+
     &-wrapper {
         display: flex;
         flex-direction: column;
