@@ -1,0 +1,37 @@
+.content {
+    display: flex;
+    align-items: center;
+    padding: 40px 0 40px 0 ;
+    margin-bottom: 120px;
+    height: 90vh;
+
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__info {
+        max-width: 498px;
+        color: $content-color;
+    }
+
+    &__title {
+        font-size: 42px;
+        line-height: 54px;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        padding: 12px 32px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

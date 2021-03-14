@@ -1,0 +1,33 @@
+.writeoff {
+    margin-bottom: 120px;
+
+    &-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 950px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 26px;
+        color: $content-color;
+        margin-bottom: 32px;
+    }
+
+    &__button { 
+        padding: 10px 32px; 
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,50 @@
+@import "var";
+
+
+@import "templates/header";
+@import "templates/content";
+@import "templates/project";
+@import "templates/boost";
+@import "templates/storefront";
+@import "templates/articles";
+@import "templates/writeoff";
+@import "templates/footer";
+
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.button {
+    border: none;
+    border-radius: 3px;
+    background-color: $main__bg;
+    color: $white;
+    transition: .5s;
+    cursor: pointer;
+    &:hover {
+        color: $main__bg;
+        background-color: $white;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: $title-color;
+}
+
+@import "media"

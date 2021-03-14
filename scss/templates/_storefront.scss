@@ -1,0 +1,24 @@
+.storefront {
+    margin-bottom: 182px;
+
+    &__info {
+        max-width: 498px;
+    }
+    
+    &__title {
+        line-height: 44px;
+        margin-bottom: 20px;
+    }
+    
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 26px;
+        color: $content-color;
+    }
+}

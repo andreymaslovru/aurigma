@@ -1,0 +1,47 @@
+.articles {
+    margin-bottom: 120px;
+
+    &__title {
+        text-align: center;
+        line-height: 44px;
+        margin-bottom: 48px;
+    }
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.article {
+    max-width: 362px;
+
+    &__image {
+        width: 362px;
+        height: 241px;
+        background-color: $grey;
+        background-size: cover;
+        margin-bottom: 16px;
+
+    }
+
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        color: $title-color;
+        margin-bottom: 12px;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: $content-color;
+    }
+}

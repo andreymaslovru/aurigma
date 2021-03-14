@@ -1,0 +1,45 @@
+.project {
+    margin-bottom: 120px;
+
+    &__container {
+        flex-direction: column; 
+    }
+
+    &__title {
+        text-align: center;
+        line-height: 44px;
+        margin-bottom: 48px;
+    }
+
+    &-wrapper {   
+        display: flex; 
+        justify-content: space-between;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 290px;
+
+    &__image {
+        margin-bottom: 16px;
+    }
+    
+    &__title {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 26px;
+        color: $title-color;
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: $content-color;
+        margin: 0;
+    }
+}
